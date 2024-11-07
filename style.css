@@ -1,0 +1,72 @@
+
+
+body {
+    background-image: url('/img/sobre.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Estilo para la imagen y el parrafo del primer blñoque (HEADER)*/
+#sheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 168, 5, 0.5);
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+    border: 3px solid white;
+}
+h3 {
+    background: black; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: white;
+}
+.simg-rhombus{
+    border-radius: 20px; /* Bordes redondeados */
+    border: 5px solid #000; /* Color y grosor del borde */
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: 100px; /* Ajusta el tamaño según sea necesario */
+    object-fit: cover; /* Asegura que la imagen se recorte correctamente */
+    transform: rotate(315deg); /* Rota la imagen para crear el efecto de rombo */
+    margin: 50px; /* Espacio alrededor de la imagen */
+}
+
+/*Para el grupo donde se encuentra la información y el bloque de registro*/
+.sgroup-inf-reg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#information{
+    background: yellowgreen;
+    width: 40%;
+    box-sizing: border-box;
+}
+#register {
+    background: plum;
+    width: 40%;
+    box-sizing: border-box;
+}
+/*--------------------------------------------------*/
+
+
+.style-section1 {
+    background: yellowgreen;
+    
+}
+
+
+
+
+p {
+    background: rgb(141, 141, 214); 
+    color:aliceblue;
+}
+
+

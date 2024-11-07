@@ -4,51 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML AND CSS</title>
-    <style>
-        p {
-            background: rgb(141, 141, 214); color:aliceblue;
-        }
-        h3 {
-            background: black; 
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-            color: white;
-        }
-
-        #register {
-            background: plum;
-        }
-
-        .style-section1 {
-            background: yellowgreen;
-        }
-    </style>    
+    <link rel="stylesheet" href="/style.css">  
 </head>
 <body>
     
-    <header style="background: orange;">
-        <img src="/img/nube.png">
+    <header id="sheader">
+        <img src="/img/nube.png" class="simg-rhombus">
         <h1>USO DE CSS CON HTML</h1>
     </header>
 
-    <section id="information" class="style-section1">
-        <h3>INFORMACIÓN</h3>
-        <p>Breve explicación del uso de css</p>
-    </section>
-    
-    <section id="register">
-        <h3>REGISTRO</h3>
-        <p>Bloque para registro de usuarios</p>
-        <label for="nombre">Nombre:</label>
-        <input type="text"><br>
-        <label for="pass">Contraseña:</label>
-        <input type="password"><br>
-        <button>Registrar</button>        
-    </section>
-    
+    <div class="sgroup-inf-reg">
+        <section id="information" class="style-section1">
+            <h3>INFORMACIÓN</h3>
+            <p>Breve explicación del uso de css</p>
+        </section>
+        
+        <section id="register">
+            <h3>REGISTRO</h3>
+            <p>Bloque para registro de usuarios</p>
+            <label for="nombre">Nombre:</label>
+            <input type="text"><br>
+            <label for="pass">Contraseña:</label>
+            <input type="password"><br>
+            <button>Registrar</button>        
+        </section>
+    </div>
+
     <section id="company" class="style-section1">
         <h3>EMPRESA</h3>
         <p>Somos estudiantes de sistemas informáticos.</p>
         <a href="index.html">Mas información...</a>
+        <img src="/img/sobre.png" alt="Imagen Empresa" class="simg-rhombus">
     </section>
 
 </body>
