@@ -1,0 +1,40 @@
+#section3{
+    background: rgba(124, 123, 123, 0.5);
+    color: white;
+    border: 20px solid yellowgreen;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 100px;
+    border-radius: 20px
+}
+
+#section1{
+    background: mediumaquamarine;
+}
+
+.style-blue{
+    background: blue;
+    color: yellow;
+    padding: 20px;
+    align-content: center;
+    border-radius: 15px;
+    margin-right: 500px;    
+}
+
+.bg-red{
+    background: red;
+}
+
+.bg-orange{
+    background: orange;
+}
+
+body{
+background-image: url('/img/fondo-body.jpg');
+}
+
+#section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
